@@ -1,6 +1,6 @@
 #include "register_types.h"
 #include "core/class_db.h"
-#include "summator.h"
+#include "hello.h"
 
 void register_hello_types() {
     ClassDB::register_class<Hello>();
