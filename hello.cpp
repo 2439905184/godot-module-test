@@ -2,11 +2,11 @@
 void Hello::add(int p_value)
 void Hello::reset()
 {
-    count = 0;
+    int c = 0;
 }
 int Hello::get_total() const
 {
-    return count;
+    return c;
 }
 void Hello::_bind_methods()
 {
@@ -16,5 +16,5 @@ void Hello::_bind_methods()
 }
 Hello::Hello()
 {
-    count = 0;
+    int c = 0;
 }
