@@ -18,4 +18,3 @@ Hello::Hello()
 {
     count = 0;
 }
-}
