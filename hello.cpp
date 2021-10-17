@@ -1,4 +1,5 @@
 #include "hello.h"
+#include <string>
 int Hello::hello()
 {
     return "hello";

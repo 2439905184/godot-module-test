@@ -4,7 +4,6 @@
 class Hello :public Reference
 {
     GDCLASS(Hello,Reference);
-    int count;
 };
 protected:
     static void _bind_methods();
