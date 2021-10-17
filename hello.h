@@ -5,7 +5,7 @@ class Hello :public Reference
 {
     GDCLASS(Hello,Reference);
     public:
-        string hello();
+        int hello();
         Hello();
 };
 protected:

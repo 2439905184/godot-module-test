@@ -1,14 +1,13 @@
 #include "hello.h"
 #include <string>
-string Hello::hello()
+int Hello::hello()
 {
-    return "hello";
+    return 8848;
 }
 Hello::Hello()
 {
 
 }
-
 void Hello::_bind_methods()
 {
     ClassDB::bind_method(D_METHOD("hello"), &Hello::hello);
