@@ -4,12 +4,11 @@
 class Hello :public Reference
 {
     GDCLASS(Hello,Reference);
-    
-};
-protected:
+    protected:
     static void _bind_methods();
-//声明hello类的方法
-public:
+    public:
         int hello();
         Hello();
+};
+
 #endif
