@@ -9,6 +9,6 @@ protected:
     static void _bind_methods();
 //声明hello类的方法
 public:
-    void hello();
+    string hello();
     Hello();
 #endif

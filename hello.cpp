@@ -1,6 +1,6 @@
 #include "hello.h"
 #include <string>
-void Hello::hello()
+string Hello::hello()
 {
     return "hello";
 }
