@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "E:/github/godot"
+                "E:/github/godot",
+                "E:/github/godot/platform/windows"
             ],
             "defines": [
                 "_DEBUG",
