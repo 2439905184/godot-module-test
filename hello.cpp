@@ -1,14 +1,15 @@
 #include "hello.h"
-#include <string>
-int Hello::get_num()
+#include <iostream>
+void Hello::hi()
 {
-    return 8848;
+    std::cout<<"Hi im hello from custom module"<<std::endl;
+}
+
+void Hello::_bind_methods()
+{
+    ClassDB::bind_method(D_METHOD("hi"), &Hello::hi);
 }
 Hello::Hello()
 {
 
-}
-void Hello::_bind_methods()
-{
-    ClassDB::bind_method(D_METHOD("hello"), &Hello::get_num);
 }

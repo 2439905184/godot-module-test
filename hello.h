@@ -3,13 +3,13 @@
 #include "core/reference.h"
 class Hello :public Reference
 {
-    
+    GDCLASS(Hello,Reference);
     protected:
-    static void _bind_methods();
+        static void _bind_methods();
     public:
-        int hello();
+        void hi();
         Hello();
-        GDCLASS(Hello,Reference);
+        
 };
 
 #endif
