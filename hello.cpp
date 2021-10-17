@@ -1,20 +1,13 @@
 #include "hello.h"
-void Hello::add(int p_value)
-void Hello::reset()
+int Hello::hello()
 {
-    int c = 0;
-}
-int Hello::get_total() const
-{
-    return c;
+    return "hello";
 }
 void Hello::_bind_methods()
 {
-    ClassDB::bind_method(D_METHOD("add", "value"), &Hello::add);
-    ClassDB::bind_method(D_METHOD("reset"), &Hello::reset);
-    ClassDB::bind_method(D_METHOD("get_total"), &Hello::get_total);
+    ClassDB::bind_method(D_METHOD("hello"), &Hello::hello);
 }
 Hello::Hello()
 {
-    int c = 0;
+
 }

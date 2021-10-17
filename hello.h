@@ -8,9 +8,8 @@ class Hello :public Reference
 };
 protected:
     static void _bind_methods();
+//声明hello类的方法
 public:
-    void add(int p_value);
-    void reset();
-    int get_total() const;
+    void hello();
     Hello();
 #endif
