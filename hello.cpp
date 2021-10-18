@@ -1,8 +1,9 @@
 #include "hello.h"
 #include <iostream>
-void Hello::hi()
+int Hello::hi()
 {
-    std::cout<<"Hi im hello from custom module"<<std::endl;
+   // std::cout<<"Hi im hello from custom module"<<std::endl;
+   return 8848;
 }
 
 void Hello::_bind_methods()

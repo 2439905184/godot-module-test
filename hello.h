@@ -7,9 +7,8 @@ class Hello :public Reference
     protected:
         static void _bind_methods();
     public:
-        void hi();
+        int hi();
         Hello();
-        
 };
 
 #endif
