@@ -52,7 +52,7 @@ jobs:
         env:
           SCONS_CACHE: ${{github.workspace}}/.scons_cache/
         run: |
-          scons -j4 verbose=yes warnings=all werror=yes platform=${{env.GODOT_TARGET_PLATFORM}} tools=yes tests=no target=release_debug 
+          scons -j3 verbose=yes warnings=all werror=yes platform=${{env.GODOT_TARGET_PLATFORM}} tools=yes tests=no target=release_debug 
       - uses: actions/upload-artifact@v2
         with:
           name: godot.tools.exe
